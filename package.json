@@ -7,8 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "obfuscate": "javascript-obfuscator dist/index.js --output dist/index.min.js",
-    "build": "npx tsc && yarn obfuscate",
-    "builds": "esbuild index.ts --bundle --format=esm --outfile=dist/index.js && yarn obfuscate"
+    "build": "esbuild index.ts --bundle --format=esm --minify --outfile=dist/index.js && yarn obfuscate"
   },
   "keywords": [],
   "author": "",
