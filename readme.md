@@ -1,0 +1,1 @@
+url: https://cdn.jsdelivr.net/gh/KBiswas98/iframe-broker-jsdelivr/dist/index.min.js
