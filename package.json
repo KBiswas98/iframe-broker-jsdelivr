@@ -1,0 +1,21 @@
+{
+  "name": "iframe-broker",
+  "version": "1.0.0",
+  "description": "IFrame messaging",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "obfuscate": "javascript-obfuscator dist/index.js --output dist/index.min.js",
+    "build": "npx tsc && yarn obfuscate",
+    "builds": "esbuild index.ts --bundle --format=esm --outfile=dist/index.js && yarn obfuscate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "javascript-obfuscator": "^4.0.2",
+    "typescript": "^5.1.6"
+  }
+}
