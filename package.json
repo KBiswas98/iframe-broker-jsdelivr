@@ -1,6 +1,6 @@
 {
   "name": "iframe-broker",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "IFrame messaging",
   "type": "commonjs",
   "main": "index.js",
